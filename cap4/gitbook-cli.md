@@ -25,15 +25,25 @@ npm install -g gitbook-cli
 El primer uso que nos puede interesar es el crear un libro. Para ello utilizaremos:
 
 ```
-gitbook-cli init <book_name>
+gitbook init <book_name>
 ```
 
-_donde book_name es el nombre del libro que queremos crear_
+_donde **book_name** es el nombre del libro que queremos crear_
 
 Además podemos 'publicar' el libro de manera local con el fin de testear el libro como si estuviese publicado en Internet. Para ello utilizaremos:
 
 ```
-gitbook-cli serve
+gitbook serve
 ```
 
+_**Nota:** una vez hecho esto, podremos visualizar nuestro libro desde el navegador en la URL que nos especifique la salida por pantalla del comando_
 
+
+Otra de las herramientas interesantes que pone este paquete a nuestra disposición es la posibilidad de obtener el código de una página estática (implementada en HTML, CSS, JavaScript) con el fin de poder visualizar nuestro libro desde el navegador. Podremos hacer uso de esta herramienta de la siguiente manera:
+
+```
+gitbook build
+```
+
+_de esta manera obtendremos dentro del directorio donde se encuentre nuestro libro, un subdirectorio **_book** que contendrá todo el código correspondiente a la página desde la que podemos ver nuestro libro.
+**Nota:** Este paso se automatiza cuando realizemos `gitbook serve` de modo que si ya hemos desplegado nuestro libro en local, no necesitamos hacer el `gitbook build` de nuevo_
