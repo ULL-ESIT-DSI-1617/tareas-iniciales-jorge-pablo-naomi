@@ -1,6 +1,6 @@
-# Capítulo 3: Node.js
+# Capítulo 4: gitbook-cli
 
-## 3.1 ¿Qué es Node.js?
+## 3.1 ¿Qué es gitbook-cli?
 
 Node.js es un entorno de ejecución para JavaScript, escrito en C++.  
 Es de código abierto, asíncrono y orientado a eventos para la capa del servidor \(pero no limitándose a ello\) basado en el estándar ECMAScript.
