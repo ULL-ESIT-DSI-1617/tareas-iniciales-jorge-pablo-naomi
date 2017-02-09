@@ -28,6 +28,12 @@ El primer uso que nos puede interesar es el crear un libro. Para ello utilizarem
 gitbook-cli init <book_name>
 ```
 
-donde book_name es el nombre del libro que queremos crear
+_donde book_name es el nombre del libro que queremos crear_
 
-Además podemos 'publicar' el libro de manera local con el fin de testear el libro
+Además podemos 'publicar' el libro de manera local con el fin de testear el libro como si estuviese publicado en Internet. Para ello utilizaremos:
+
+```
+gitbook-cli serve
+```
+
+
