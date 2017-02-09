@@ -21,3 +21,13 @@ npm install -g gitbook-cli
 ```
 
 ## 3.3 Cómo utilizar gitbook-cli
+
+El primer uso que nos puede interesar es el crear un libro. Para ello utilizaremos:
+
+```
+gitbook-cli init <book_name>
+```
+
+donde book_name es el nombre del libro que queremos crear
+
+Además podemos 'publicar' el libro de manera local con el fin de testear el libro
