@@ -2,19 +2,23 @@
 
 ## 3.1 ¿Qué es gitbook-cli?
 
-Node.js es un entorno de ejecución para JavaScript, escrito en C++.  
-Es de código abierto, asíncrono y orientado a eventos para la capa del servidor \(pero no limitándose a ello\) basado en el estándar ECMAScript.
+**gitbook-cli** es un paquete implementado en Node.js disponible desde el gestor de paquetes 'npm' mencionado en el capítulo anterior. Nos proporciona herramientas con el fin de facilitar la creación, gestión y publicación de un libro en la plataforma GitBook también mencionada.
 
 ## 3.2 Cómo instalar Node.js
 
-En una terminal, escribimos:
+Podemos hacerlo de dos maneras:
+
+**1. Para un proyecto**
 
 ```
- curl -sL https://deb.nodesource.com/setup_Y.x | sudo -E bash -
- sudo apt-get install -y nodejs
+npm install gitbook-cli --save
 ```
 
-_donde Y es la versión que queremos instalar._
+*1. Para un proyecto**
+
+```
+npm install -g gitbook-cli
+```
 
 ## 3.3 npm
 
