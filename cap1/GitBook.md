@@ -6,28 +6,28 @@ Gitbook es una herramienta online para utilizar desde el navegador que nos permi
 ##1.2 ¿Cómo usarlo?
 En primer lugar, debemos crear una cuenta de usuario, y ya podemos empezar a utilizar la versión para el navegador web. Para la versión GitBook Desktop, debemos descargar e instalar el programa desde [esta página](https://www.gitbook.com/editor "Título del enlace") e iniciar sesión.
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/gitbook_Desktop.png)
+![](./img/gitbook_Desktop.png)
 
 En esta versión se pueden utilizar libros guardados de manera local o los que tengamos asociados a nuestra cuenta de Gitbook.
 
 ##1.3 Importar libros desde Gitbook a un repositorio Github
 * Para poder importar un libro desde Gitbook a un repositorio de Github, debemos tener un repositorio vacío en Github y seleccionar la opción import code.
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/import.png)
+![](./img/import.png)
 
 * Luego, vamos a nuestro libro de Gitbook y entramos en settings. Presionamos en la flecha que está a la derecha del botón edit y nos mostrará la dirección git de nuestro libro.
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/gitbook_git.png)
+![](./img/gitbook_git.png)
 
 * Lo copiamos y lo ponemos en la ventana que teníamos inicialmente de Github y le damos a Begin import.
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/4.png)
+![](./img/4.png)
 
 * Esperamos a que termine de prepararse el repositorio.
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/gitbook_a_github.png)
+![](./img/gitbook_a_github.png)
 
 
 * Y listo. Ahora tendremos tanto Gitbook y Github sincronizados.
 
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap1/img/5.png)
+![](./img/5.png)
