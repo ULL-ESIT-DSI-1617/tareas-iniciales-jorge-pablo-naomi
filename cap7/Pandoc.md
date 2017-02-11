@@ -31,8 +31,8 @@ Y escrbimos el siguiente código en la terminal
 * -o prueba.html para que se guarde en dicho fichero la salida.
 
 El fichero de salidad contiene el siguiente código.
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap7/img/imagen_prueba_pandoc.png)
+![](./img/imagen_prueba_pandoc.png)
 
 Y al abrir en el navegador se ve de la siguiente manera.
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap7/img/imagen_prueba_pandoc_html.png)
+![](./img/imagen_prueba_pandoc_html.png)
