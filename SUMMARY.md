@@ -33,7 +33,7 @@
     * ¿Cómo instalar Hub?
     * ¿Cómo usar Hub?
     
-* [Pandoc](cap7/Pandoc.md)
+* [Pandoc](cap6/Pandoc.md)
     * ¿Qué es Pandoc?
     * ¿Cómo instalar Pandoc?
     * Ejemplo de uso de Pandoc
