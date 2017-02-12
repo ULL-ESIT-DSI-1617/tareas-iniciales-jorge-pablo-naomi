@@ -28,7 +28,7 @@ brew install hub
 _tras haber ejecutado este último comando ya tendremos instalado **hub**
 podremos comprobarlo haciendo `hub --version` y nos saldrá algo como esto:_
 
-![](img/hub_version.png)
+![](img/hub-version.png)
 
 
 ## 3.3 ¿Cómo utilizar Hub?
