@@ -2,13 +2,13 @@
 
 ## 3.1 ¿Qué es GitHub Pages?
 
-**GitHub Pages** es el servicio de almacenamiento y publicación de páginas web que pone a nuestra disposición _GitHub_. Este servicio nos da la posibilidad de poder crear tres tipos de páginas web:
+[**GitHub Pages**](https://pages.github.com/) es el servicio de almacenamiento y publicación de páginas web que pone a nuestra disposición _GitHub_. Este servicio nos da la posibilidad de poder crear tres tipos de páginas web:
 
 1. Página personal de usuario. Esta será una web que nos represente en GitHub como usuario y persona.
 2. Página de organización. Esta será la página web que respresente a la organización a la que pertenezca
 3. Página de proyecto. Página que represente al proyecto al que pertenezca.
 
-## 3.2 Cómo usar GitHub Pages
+## 3.2 ¿Cómo usar GitHub Pages?
 
 ### 3.2.1 Página personal
 

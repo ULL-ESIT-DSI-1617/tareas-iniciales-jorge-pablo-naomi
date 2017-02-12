@@ -1,10 +1,10 @@
-# Capítulo 4: gitbook-cli
+# Capítulo 4: Gitbook-cli
 
-## 3.1 ¿Qué es gitbook-cli?
+## 3.1 ¿Qué es Gitbook-cli?
 
-**gitbook-cli** es un paquete implementado en Node.js disponible desde el gestor de paquetes 'npm' mencionado en el capítulo anterior. Nos proporciona herramientas con el fin de facilitar la creación, gestión y publicación de un libro en la plataforma GitBook también mencionada.
+[**Gitbook-cli**](https://www.npmjs.com/package/gitbook-cli) es un paquete implementado en Node.js disponible desde el gestor de paquetes 'npm' mencionado en el capítulo anterior. Nos proporciona herramientas con el fin de facilitar la creación, gestión y publicación de un libro en la plataforma GitBook también mencionada.
 
-## 3.2 Cómo instalar gitbook-cli
+## 3.2 ¿Cómo instalar Gitbook-cli?
 
 Podemos hacerlo de dos maneras:
 
@@ -20,7 +20,7 @@ npm install gitbook-cli --save
 npm install -g gitbook-cli
 ```
 
-## 3.3 Cómo utilizar gitbook-cli
+## 3.3 ¿Cómo usar Gitbook-cli?
 
 El primer uso que nos puede interesar es el crear un libro. Para ello utilizaremos:
 

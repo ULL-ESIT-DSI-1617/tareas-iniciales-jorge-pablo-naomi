@@ -1,12 +1,14 @@
-# Capítulo 4: hub
+# Capítulo 6: Hub
 
-## 3.1 ¿Qué es hub?
+## 3.1 ¿Qué es Hub?
 
-**hub** es una utilidad que está diseñada para facilitar la tarea de trabajar con repositorios remotos, más en concreto, con GitHub permitiendonos acceder a nuestros repositorios con el nombre de usuario y el nombre del repositorio. De esta manera podremos acceder a un repositorio tal que:
+[**Hub**](https://github.com/github/hub) es una utilidad que está diseñada para facilitar la tarea de trabajar con repositorios remotos, más en concreto, con GitHub permitiendonos acceder a nuestros repositorios con el nombre de usuario y el nombre del repositorio. De esta manera podremos acceder a un repositorio tal que:
 
- `hub clone <nombre-usu>/<nombre-repositorio>`
+```
+hub clone <nombre-usu>/<nombre-repositorio>
+```
 
-## 3.2 Cómo instalar hub
+## 3.2 ¿Cómo instalar Hub?
 
 Se puede instalar esta utilidad de diversas maneras. A continuación se detallará la que nosotros consideramos la manera más sencilla de hacerlo. 
 Lo primero que deberemos hacer es instalar el gestor de paquetes **Homebrew**:
@@ -14,20 +16,24 @@ Lo primero que deberemos hacer es instalar el gestor de paquetes **Homebrew**:
 ```
 sudo apt-get install linuxbrew-wrapper
 ```
+
 Una vez hecho esto procederemos a instalar **hub**:
 
 ```
 brew install hub
 ```
+
+![](img/hub.png)  
+
 _tras haber ejecutado este último comando ya tendremos instalado **hub**
 podremos comprobarlo haciendo `hub --version` y nos saldrá algo como esto:_
 
-![](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jorge-pablo-naomi/blob/master/cap6/img/hub_version.png)
+![](img/hub_version.png)
 
 
-## 3.3 Cómo utilizar hub
+## 3.3 ¿Cómo utilizar Hub?
 
-**hub** es una expansión del comando `git`, por lo tanto podemos hacer uso de todos aquellas opciones que el comando `git` nos permitía. Básicamente podremos sustituir `git` por `hub`cuando estemos haciendo uso de la terminal.
+**Hub** es una expansión del comando `git`, por lo tanto podemos hacer uso de todos aquellas opciones que el comando `git` nos permitía. Básicamente podremos sustituir `git` por `hub`cuando estemos haciendo uso de la terminal.
 Por ejemplo:
 
 ```
@@ -39,7 +45,7 @@ _es equivalente a:_
 hub commit
 ```
 
-**hub** no solo nos permite acceder a nuestros repositorios de GitHub, sino que también nos permite crear un repositorio desde la terminal:
+**Hub** no solo nos permite acceder a nuestros repositorios de GitHub, sino que también nos permite crear un repositorio desde la terminal:
 
 ```
 hub create <nombre-usuario>/<nombre-repo>
