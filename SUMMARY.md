@@ -9,7 +9,7 @@
     * ¿Cómo usar Gitbook?
     * Importar libros desde Gitbook a un repositorio Github
     
-* [GitHub Pages](cap2/github-pages.md)
+* [GitHub Pages](cap2/github_pages.md)
     * ¿Qué es GitHub Pages?
     * ¿Cómo usar GitHub Pages?
         * Página personal
