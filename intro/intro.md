@@ -114,6 +114,7 @@ Lista numerada:
 
 _**NOTA:** como podemos observar, aunque en la lista ordenada no pongamos los numeros que corresponden, Markdown sigue ordenando 
 la lista correctamente_
+
 ---
 
 También podemos anidar listas:
