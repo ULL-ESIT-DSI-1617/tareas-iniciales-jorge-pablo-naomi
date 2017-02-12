@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>GitHub Pages · GitBook</title>
+        <title>Pandoc · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -201,9 +201,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4" data-path="github_pages.html">
+        <li class="chapter " data-level="1.4" data-path="../cap2/github_pages.html">
             
-                <a href="github_pages.html">
+                <a href="../cap2/github_pages.html">
             
                     
                     GitHub Pages
@@ -497,9 +497,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../cap6/Pandoc.html">
+        <li class="chapter active" data-level="1.8" data-path="Pandoc.html">
             
-                <a href="../cap6/Pandoc.html">
+                <a href="Pandoc.html">
             
                     
                     Pandoc
@@ -585,7 +585,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >GitHub Pages</a>
+        <a href=".." >Pandoc</a>
     </h1>
 </div>
 
@@ -600,53 +600,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="cap&#xED;tulo-2-github-pages">Cap&#xED;tulo 2: GitHub Pages</h1>
-<h2 id="31-&#xBF;qu&#xE9;-es-github-pages">3.1 &#xBF;Qu&#xE9; es GitHub Pages?</h2>
-<p><a href="https://pages.github.com/" target="_blank"><strong>GitHub Pages</strong></a> es el servicio de almacenamiento y publicaci&#xF3;n de p&#xE1;ginas web que pone a nuestra disposici&#xF3;n <em>GitHub</em>. Este servicio nos da la posibilidad de poder crear tres tipos de p&#xE1;ginas web:</p>
-<ol>
-<li>P&#xE1;gina personal de usuario. Esta ser&#xE1; una web que nos represente en GitHub como usuario y persona.</li>
-<li>P&#xE1;gina de organizaci&#xF3;n. Esta ser&#xE1; la p&#xE1;gina web que respresente a la organizaci&#xF3;n a la que pertenezca</li>
-<li>P&#xE1;gina de proyecto. P&#xE1;gina que represente al proyecto al que pertenezca.</li>
-</ol>
-<h2 id="32-&#xBF;c&#xF3;mo-usar-github-pages">3.2 &#xBF;C&#xF3;mo usar GitHub Pages?</h2>
-<h3 id="321-p&#xE1;gina-personal">3.2.1 P&#xE1;gina personal</h3>
-<ol>
-<li>Lo primero que haremos es crear un nuevo repositorio con el nombre: <strong><em><nombre-usuario>.github.io</nombre-usuario></em></strong></li>
-</ol>
-<p><img src="img/pers-pag-new-repo.png" alt=""></p>
-<ol>
-<li>Una vez creado el repositorio, lo que debemos hacer es un <em>push</em> del c&#xF3;digo al repositorio.</li>
-</ol>
-<p><img src="img/push.png" alt=""></p>
-<ol>
-<li>Autom&#xE1;ticamente una vez hecho el <em>push</em> podremos acceder a la p&#xE1;gina web a trav&#xE9;s de la URL: <strong><em>https://<nombre-usuario>.github.io</nombre-usuario></em></strong></li>
-</ol>
-<p><img src="img/example.png" alt=""></p>
-<p><em><strong>Nota:</strong> El c&#xF3;digo usado en este ejemplo es una plantilla gratuita disponible en <a href="https://html5up.net/" target="_blank">HTML5 UP</a></em></p>
-<h3 id="322-p&#xE1;gina-de-organizaci&#xF3;n">3.2.2 P&#xE1;gina de organizaci&#xF3;n</h3>
-<p>Deberemos seguir los pasos descritos para la p&#xE1;gina personal con las siguientes diferencias:</p>
+                                <h1 id="cap&#xED;tulo-7-pandoc">Cap&#xED;tulo 7: Pandoc</h1>
+<h2 id="71-&#xBF;qu&#xE9;-es-pandoc">7.1 &#xBF;Qu&#xE9; es Pandoc?</h2>
+<p><a href="http://pandoc.org/" target="_blank"><strong>Pandoc</strong></a> es un conversor de documentos libre y de c&#xF3;digo abierto. Nos permitir&#xE1; convertir ficheros escritos en un lenguaje de marcado como Markdown a HTML, ReStructuredText, LaTeX, OPML, Org-mode, DocBook, y Office Open XML (Microsoft Word .docx).</p>
+<h2 id="72-&#xBF;c&#xF3;mo-instalar-pandoc">7.2 &#xBF;C&#xF3;mo instalar Pandoc?</h2>
+<p>Teniendo ya instalado <a href="../cap3/nodejs.html">Node.js</a>, introducimos el siguiente c&#xF3;digo en la terminal.
+<code>sudo npm install node-pandoc --save</code></p>
+<h2 id="73-ejemplo-de-uso-de-pandoc">7.3 Ejemplo de uso de Pandoc</h2>
+<p>Creamos un archivo llamado prueba.md con el siguiente c&#xF3;digo markdown.</p>
+<pre><code>#Prueba Markdown a HTML con Pandoc
+
+##Titulo
+
+###subtitulo
+</code></pre><p>Y escrbimos el siguiente c&#xF3;digo en la terminal</p>
+<p><code>pandoc intro.md -f markdown -t html -s -o prueba.html</code></p>
 <ul>
-<li>El repositorio que debemos crear debe ser de la organizaci&#xF3;n ha de tener el nombre: <strong><em><nombre-organizacion>.github.io</nombre-organizacion></em></strong></li>
-<li>La p&#xE1;gina web desplegada estar&#xE1; disponible en la URL: <strong><em>https://<nombre-organizacion>.github.io</nombre-organizacion></em></strong></li>
+<li><p>-f markdown para indicar que el fichero de origin est&#xE1; escrito en markdown.</p>
+</li>
+<li><p>-t html para indicar que la salida se escriba en HTML.</p>
+</li>
+<li><p>-s Para que la salida tenga un header y footer apropiado.</p>
+</li>
+<li><p>-o prueba.html para que se guarde en dicho fichero la salida.</p>
+</li>
 </ul>
-<h3 id="323-p&#xE1;gina-de-proyecto">3.2.3 P&#xE1;gina de proyecto</h3>
-<ol>
-<li><p>En el repositorio del proyecto que queramos desplegar la p&#xE1;gina creamos una rama que se llame <strong><em>gh-pages</em></strong>.</p>
-</li>
-<li><p>Hacemos <strong>push</strong> a dicha rama del c&#xF3;digo de la p&#xE1;gina.</p>
-</li>
-<li><p>Nos aseguramos de que en la configuraci&#xF3;n del repositorio tenemos activado el servicio de GitHub Pages para la rama anteriormente especificada.</p>
-</li>
-</ol>
-<p><img src="img/ghpagesconfig.png" alt=""></p>
-<ol>
-<li>Una vez realizados todos los pasos, podremos acceder a la p&#xE1;gina del proyecto desde la URL:<br><strong><em>https://<nombre-usuario nombre-organizacion="">.github.io/<nombre-repositorio></nombre-repositorio></nombre-usuario></em></strong></li>
-</ol>
-<p><em><strong>Nota:</strong> Las p&#xE1;ginas de proyectos pueden tener distinta &quot;fuente&quot;, es decir, no solo se puede publicar el c&#xF3;digo desde la rama <strong>gh-pages</strong> 
-sino que se puede cambiar la configuraci&#xF3;n para que el c&#xF3;digo este en la rama <strong>master</strong> bajo el directorio <strong>/docs</strong>, o tambi&#xE9;n en la propia 
-rama <strong>master</strong>.</em>  </p>
-<hr>
-<p><strong><em>A modo de resumen:</em></strong><br><img src="img/ghtable.png" alt=""></p>
+<p>El fichero de salidad contiene el siguiente c&#xF3;digo.  </p>
+<p><img src="img/imagen_prueba_pandoc.png" alt=""></p>
+<p>Y al abrir en el navegador se ve de la siguiente manera.</p>
+<p><img src="img/imagen_prueba_pandoc_html.png" alt=""></p>
 
                                 
                                 </section>
@@ -682,7 +664,7 @@ rama <strong>master</strong>.</em>  </p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitHub Pages","level":"1.4","depth":1,"next":{"title":"¿Qué es GitHub Pages?","level":"1.4.1","depth":2,"ref":"","articles":[]},"previous":{"title":"Importar libros desde Gitbook a un repositorio Github","level":"1.3.3","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"cap2/github_pages.md","mtime":"2017-02-12T03:43:57.173Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-12T03:46:43.556Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Pandoc","level":"1.8","depth":1,"next":{"title":"¿Qué es Pandoc?","level":"1.8.1","depth":2,"ref":"","articles":[]},"previous":{"title":"¿Cómo usar Hub?","level":"1.7.3","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"cap6/Pandoc.md","mtime":"2017-02-12T03:32:47.125Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-12T03:46:43.556Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
