@@ -25,8 +25,8 @@
             
 * [Gitbook-cli](cap4/gitbook-cli.md)
     * ¿Qué es Gitbook-cli?
-    * ¿Cómo instalar NGitbook-cli?
-    * ¿Cómo usar NGitbook-cli?
+    * ¿Cómo instalar Gitbook-cli?
+    * ¿Cómo usar Gitbook-cli?
     
 * [Hub](cap5/hub.md)
     * ¿Qué es Hub?
