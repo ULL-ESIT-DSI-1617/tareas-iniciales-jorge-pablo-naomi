@@ -17,8 +17,15 @@
 
 * Deberá hacerse un proyecto GitHub asociado al repo para gestionar las tareas
 
+### Enlaces de interes:
+
+* [Descripción de la práctica](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html)
+* [Desarrollo de Sistemas Informáticos (Campus Virtual)](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
+* [Libro en GitBook]()
+* [Libro en GitHub Pages](https://ull-esit-dsi-1617.github.io/tareas-iniciales-jorge-pablo-naomi/)
+
 
 #### Miembros del Grupo:
-* Pablo Sebastián Caballero
-* Naomi Carrillo Plasencia
-* Jorge Aguiar Martín
+* [Pablo Sebastián Caballero](https://alu0100812428.github.io/pablo.github.io/)
+* [Naomi Carrillo Plasencia](https://alu0100829914.github.io/)
+* [Jorge Aguiar Martín](https://alu0100823295.github.io/)
