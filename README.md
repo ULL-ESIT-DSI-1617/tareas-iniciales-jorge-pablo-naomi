@@ -21,7 +21,7 @@
 
 * [Descripción de la práctica](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html)
 * [Desarrollo de Sistemas Informáticos (Campus Virtual)](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
-* [Libro en GitBook]()
+* [Libro en GitBook](https://alu0100823295.gitbooks.io/tareas-iniciales-jorge-pablo-naomi/content/)
 * [Libro en GitHub Pages](https://ull-esit-dsi-1617.github.io/tareas-iniciales-jorge-pablo-naomi/)
 
 
