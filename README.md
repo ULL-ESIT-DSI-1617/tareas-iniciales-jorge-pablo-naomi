@@ -26,6 +26,6 @@
 
 
 #### Miembros del Grupo:
-* [Pablo Sebastián Caballero](https://alu0100812428.github.io/pablo.github.io/)
+* [Pablo Sebastián Caballero](https://alu0100812428.github.io/)
 * [Naomi Carrillo Plasencia](https://alu0100829914.github.io/)
 * [Jorge Aguiar Martín](https://alu0100823295.github.io/)
